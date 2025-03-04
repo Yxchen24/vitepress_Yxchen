@@ -3,7 +3,8 @@ import { set_sidebar } from "./utils/autoSidebar.mjs";	// 改成自己的路径
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "vitepress_Yxchen",
+  base: "/vitepress_Yxchen/",
+  ignoreDeadLinks: true,
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
   title: "Yxchen",
   description: "一个存放笔记的知识库",
