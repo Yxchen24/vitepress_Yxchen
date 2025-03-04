@@ -54,7 +54,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist # 确保路径与你的 VitePress 配置一致
+          path: .vitepress/dist # 确保路径与你的 VitePress 配置一致
 
   # 部署工作
   deploy:
