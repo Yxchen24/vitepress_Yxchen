@@ -62,7 +62,7 @@ export default defineConfig({
     ], */
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Yxchen24' }
     ],
     footer: {
       copyright: 'Copyright © 2025-present Yxchen'
