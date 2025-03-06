@@ -10,7 +10,7 @@
 
 ## 2.Git工作流程
 
-<img src="../public/git流程图.jpeg" alt="git流程图" style="zoom:80%;float:left" />
+<img src="../public/git流程图.jpeg" alt="git流程图" style="zoom:100%;" />
 
 ------
 
