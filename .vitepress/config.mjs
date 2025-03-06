@@ -32,9 +32,10 @@ export default defineConfig({
         { text: "day03", link: "/讲义/day03/苍穹外卖-day03.html" },
         { text: "day04", link: "/讲义/day05/苍穹外卖-day05.html" },
         
-        
-
       ] },
+      {text: "其它", items:[
+        { text: "git", link: "/其它/git.html" },] }
+
     ],
     sidebar: 
     { 
