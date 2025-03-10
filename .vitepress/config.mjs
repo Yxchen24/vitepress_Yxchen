@@ -19,19 +19,16 @@ export default defineConfig({
       { text: "主页", items: [
         { text: "主页", link: "/" },
         { text: "项目", link: "/markdown-examples" },
-        { text: "自动生成1", link: "/javaProject/sky/Nginx.html"},
-        { text: "自动生成2", link: "/nginix/web部署/Nginx.html" },
         { text: "讲义", link: "/讲义/day01/苍穹外卖-day01.html" },
       ] },
-      { text: "项目", link: "/markdown-examples" },
-      { text: "自动生成1", link: "/javaProject/sky/Nginx.html"},
-      { text: "自动生成2", link: "/nginix/web部署/Nginx.html" },
+      { text: "运维", link: "/javaProject/sky/Nginx.html"},
+      { text: "spring", link: "/nginix/web部署/Nginx.html" },
+      { text: "mybatis", link: "/javaProject/sky/Nginx.html" },
       { text: "讲义", items: [
         { text: "day01", link: "/讲义/day01/苍穹外卖-day01.html" },
         { text: "day02", link: "/讲义/day02/苍穹外卖-day01.html" },
         { text: "day03", link: "/讲义/day03/苍穹外卖-day03.html" },
         { text: "day04", link: "/讲义/day05/苍穹外卖-day05.html" },
-        
       ] },
       {text: "其它", items:[
         { text: "git", link: "/其它/git.html" },] }
@@ -45,6 +42,7 @@ export default defineConfig({
      },
      sidebar: false, // 关闭侧边栏
      aside: "left", // 设置右侧侧边栏在左侧显示
+     
  /*    sidebar: [
       {
         text: 'Examples',
