@@ -55,7 +55,7 @@
 
 找到资料-->项目接口文档-->苍穹外卖-管理端接口.html
 
-<img src="../../public/image-20221111162912753.png" alt="image-20221111162912753" style="zoom:50%;" /> <img src="../../../../BaiduNetdiskDownload/苍穹外卖/讲义/讲义/day02/assets/image-20221111162930483.png" alt="image-20221111162930483" style="zoom:50%;" />
+<img src="../../public/image-20221111162912753.png" alt="image-20221111162912753" style="zoom:50%;" /> <img src="../../public/image-20221111162930483.png" alt="image-20221111162930483" style="zoom:50%;" />
 
 明确新增员工接口的**请求路径、请求方式、请求参数、返回数据**。
 
@@ -465,7 +465,7 @@ json数据：
 
 后台报错信息：
 
-<img src="../../../../BaiduNetdiskDownload/苍穹外卖/讲义/讲义/day02/assets/image-20221111194049620.png" alt="image-20221111194049620" style="zoom:80%;" /> 
+<img src="../../public/image-20221111194049620.png" alt="image-20221111194049620" style="zoom:80%;" /> 
 
 查看employee表结构：
 
