@@ -26,7 +26,7 @@ export default defineConfig({
       { text: "mybatis", link: "/javaProject/sky/Nginx.html" },
       { text: "讲义", items: [
         { text: "day01", link: "/讲义/day01/苍穹外卖-day01.html" },
-        { text: "day02", link: "/讲义/day02/苍穹外卖-day01.html" },
+        { text: "day02", link: "/讲义/day02/苍穹外卖-day02.html" },
         { text: "day03", link: "/讲义/day03/苍穹外卖-day03.html" },
         { text: "day04", link: "/讲义/day05/苍穹外卖-day05.html" },
       ] },
