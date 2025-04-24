@@ -22,7 +22,7 @@ export default defineConfig({
         { text: "讲义", link: "/讲义/day01/苍穹外卖-day01.html" },
       ] },
       { text: "运维", link: "/javaProject/sky/Nginx.html"},
-      { text: "spring", link: "/nginix/web部署/Nginx.html" },
+      { text: "spring", link: "/spring/spring常用注解.html" },
       { text: "mybatis", link: "/javaProject/sky/Nginx.html" },
       { text: "讲义", items: [
         { text: "day01", link: "/讲义/day01/苍穹外卖-day01.html" },
