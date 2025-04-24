@@ -18,17 +18,15 @@ export default defineConfig({
     nav: [
       { text: "主页", items: [
         { text: "主页", link: "/" },
-        { text: "项目", link: "/markdown-examples" },
-        { text: "讲义", link: "/讲义/day01/苍穹外卖-day01.html" },
       ] },
-      { text: "运维", link: "/javaProject/sky/Nginx.html"},
+      { text: "text", link: "/spring/分页多表查询.html" },
       { text: "spring", link: "/spring/spring常用注解.html" },
       { text: "mybatis", link: "/javaProject/sky/Nginx.html" },
       { text: "讲义", items: [
         { text: "day01", link: "/讲义/day01/苍穹外卖-day01.html" },
         { text: "day02", link: "/讲义/day02/苍穹外卖-day02.html" },
         { text: "day03", link: "/讲义/day03/苍穹外卖-day03.html" },
-        { text: "day04", link: "/讲义/day05/苍穹外卖-day05.html" },
+        { text: "day05", link: "/讲义/day05/苍穹外卖-day05.html" },
       ] },
       {text: "其它", items:[
         { text: "git", link: "/其它/git.html" },] }
