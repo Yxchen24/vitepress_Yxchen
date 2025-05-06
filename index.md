@@ -4,18 +4,16 @@ layout: home
 
 hero:
   name: "YXchen"
-  text: "一个文档站点"
-  tagline: 持续学习，持续进步
+  text: "技术无他， 唯有熟尔。"
+  tagline: 知 其 然， 也 知 其 所 以 然。
   image:
     src: /北京天安门.png
     alt: 背景图片
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: https://vitepress.dev/guide/markdown
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Spring
+      link: /spring/spring常用注解.html
+    
 
 features:
   - title: Feature A
