@@ -15,18 +15,18 @@
 
 解压，可以解压到 `C:\Program Files`
 
-![image-20240827181020405](..\..\public\jIaRat0bGpmcnwpT.webp)
+![image-20240827181020405](assets/jIaRat0bGpmcnwpT.webp)
 
 ## 设置环境变量
 
-![image-20240827181137899](..\..\public\qnUeATexvH7arc2a.png)
+![image-20240827181137899](assets/qnUeATexvH7arc2a.png)
 
 - MAVEN_HOME
 - C:\Program Files\apache-maven-3.9.9
 
 > 就是安装之后的根目录，把 Mavne 下载到哪里就选着哪里
 
-![image.png](..\..\public\meOJ2hc2hKEOzyaB.webp)
+![image.png](assets/meOJ2hc2hKEOzyaB.webp)
 
 找到 `系统环境变量` 里面的 `Path` 点击 `编辑` 之后我们就添加 `%MAVEN_HOME%\bin`
 
@@ -36,7 +36,7 @@ Win + R 输入 `cmd` 调出黑窗口
 
 只要有下面的输出就算安装成功！！
 
-![image-20240827181536735](..\..\public\dn7xNAFS4I52oYPM.webp)
+![image-20240827181536735](assets/dn7xNAFS4I52oYPM.webp)
 
 ## 添加阿里云镜像
 
@@ -57,7 +57,7 @@ Win + R 输入 `cmd` 调出黑窗口
 
 最后，修改完成之后的情况:
 
-![image-20240827184800731](..\..\public\QpQHM0JpcAFIiSCI.png)
+![image-20240827184800731](assets/QpQHM0JpcAFIiSCI.png)
 
 > 注意：
 >
@@ -65,14 +65,14 @@ Win + R 输入 `cmd` 调出黑窗口
 
 # Idea Maven 配置
 
-![image-20240827191449438](..\..\public\SulypTuvzDyRc00v.webp)
+![image-20240827191449438](assets/SulypTuvzDyRc00v.webp)
 
 > 一定要确保 Use setting from .mvc/maven.conf 这个是非选择的状态！
 
-![image-20240827190507612](..\..\public\ry0ztOEtMMTUfUf6.webp)
+![image-20240827190507612](assets/ry0ztOEtMMTUfUf6.webp)
 
 > 第二个 config file 选着自己安装好的目录下的 conf/setting.xml （需要配置好镜像，要不速度比较慢）
 
-![image-20240827191602720](..\..\public\1WeQvfsS0e1LlmV5.webp)
+![image-20240827191602720](assets/1WeQvfsS0e1LlmV5.webp)
 
 > Local repository 也可以覆写，这个默认配置的是下载依赖的路径 C 盘，随着时间累计后面可能会比较大
