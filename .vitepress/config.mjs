@@ -19,7 +19,10 @@ export default defineConfig({
       { text: "主页", items: [
         { text: "主页", link: "/" },
       ] },
-      { text: "text", link: "/spring/分页多表查询.html" },
+      { text: "yupi", items: [
+        { text: "day01", link: "/javaProject/后端模板/后端模板.md" },
+        { text: "day02", link: "/javaProject/后端模板/java8安装配置.md" },
+        { text: "day03", link: "/javaProject/后端模板/Maven安装.md" }] },
       { text: "spring", link: "/spring/spring常用注解.html" },
       { text: "mybatis", link: "/javaProject/sky/Nginx.html" },
       { text: "讲义", items: [
@@ -36,7 +39,8 @@ export default defineConfig({
     { 
       "/javaProject/sky": set_sidebar("/javaProject/sky"),
       "/nginix/web部署": set_sidebar("nginix/web部署"),
-      "讲义": set_sidebar("讲义")
+      "讲义": set_sidebar("讲义"),
+      "/javaProject/后端模板": set_sidebar("/javaProject/后端模板"),
      },
      sidebar: false, // 关闭侧边栏
      aside: "left", // 设置右侧侧边栏在左侧显示
