@@ -26,11 +26,11 @@ export default defineConfig({
         { text: "用户模块", link: "/javaProject/xin-picture-backed/用户模块.md" }] },
       { text: "spring", link: "/spring/spring常用注解.html" },
       { text: "mybatis", link: "/javaProject/sky/Nginx.html" },
-      { text: "讲义", items: [
-        { text: "day01", link: "/讲义/day01/苍穹外卖-day01.html" },
-        { text: "day02", link: "/讲义/day02/苍穹外卖-day02.html" },
-        { text: "day03", link: "/讲义/day03/苍穹外卖-day03.html" },
-        { text: "day05", link: "/讲义/day05/苍穹外卖-day05.html" },
+      { text: "学习笔记", items: [
+        { text: "JAVA基础", link: "/java学习笔记/java基础.html" },
+        { text: "2", link: "/讲义/day02/苍穹外卖-day02.html" },
+        { text: "3", link: "/讲义/day03/苍穹外卖-day03.html" },
+        { text: "4", link: "/讲义/day05/苍穹外卖-day05.html" },
       ] },
       {text: "其它", items:[
         { text: "git", link: "/其它/git.html" },] }
@@ -40,7 +40,7 @@ export default defineConfig({
     { 
       "/javaProject/sky": set_sidebar("/javaProject/sky"),
       "/nginix/web部署": set_sidebar("nginix/web部署"),
-      "讲义": set_sidebar("讲义"),
+      "java学习笔记": set_sidebar("java学习笔记"),
       "/javaProject/后端模板": set_sidebar("/javaProject/后端模板"),
       "/javaProject/xin-picture-backed": set_sidebar("/javaProject/xin-picture-backed"),
      },
